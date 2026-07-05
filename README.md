@@ -1,64 +1,63 @@
-Hostel Management System
+# Hostel Management System
 
-Overview
+A desktop application developed using C# (Windows Forms) to efficiently manage and streamline hostel operations. This system handles everything from room allocation and student registration to fee tracking and staff management, ensuring smooth and organized hostel administration.
 
-The Hostel Management System is a desktop application developed using C# to efficiently manage hostel operations. This system streamlines tasks such as room allocation, student registration, fee management, and reporting, ensuring smooth and organized hostel administration. This project was developed as part of my second-year coursework.
+---
 
-Features
+## 🚀 Features
 
-Student Registration – Register new students with personal details and room assignments.
+- **Student Registration**: Register new students with their personal details and assign rooms.
+- **Room Management**: Track available and occupied rooms efficiently.
+- **Fee Management**: Handle student payments, monitor pending dues, and generate invoices.
+- **Attendance Tracking**: Monitor student check-ins and check-outs securely.
+- **Staff Management**: Manage hostel staff details, roles, and responsibilities.
+- **Reporting System**: Generate comprehensive reports for room allocations, payments, and student records.
 
-Room Management – Track available and occupied rooms.
+## 🛠️ Technologies Used
 
-Fee Management – Handle student payments, pending dues, and generate invoices.
+- **Programming Language**: C#
+- **UI Framework**: Windows Forms (WinForms)
+- **Database**: SQL Server / MySQL
+- **IDE**: Visual Studio
 
-Attendance Tracking – Monitor student check-ins and check-outs.
+## ⚙️ Installation & Setup
 
-Staff Management – Manage hostel staff details and responsibilities.
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/devlinuskibet/LogReg.git
+   ```
 
-Reporting System – Generate reports for room allocation, payments, and student records.
+2. **Open the project:**
+   - Open Visual Studio.
+   - Load the `HostelManagementSystem.sln` solution file.
 
-Technologies Used
+3. **Database Setup:**
+   - Open your SQL Server Management Studio (SSMS) or equivalent database client.
+   - Create a new database for the project.
+   - Run the provided SQL setup script located in `Database/DatabaseSetup.sql` to generate all the necessary tables (`Newstude1`, `Employees`, etc.).
 
-Programming Language: C#
+4. **Build and Run:**
+   - Build the application in Visual Studio.
+   - Start the application (F5).
 
-Database: SQL Server / MySQL
+## 📖 Usage
 
-UI Framework: ASP.net
+1. Launch the application.
+2. Log in with your administrator credentials.
+3. Use the sidebar/dashboard to navigate through modules like Students, Rooms, Employees, and Fees.
+4. Export or generate necessary administrative reports.
 
-IDE: Visual Studio
+## 🤝 Contribution
 
-Installation & Setup
+Contributions, issues, and feature requests are welcome!
+Feel free to fork the repository and submit a pull request if you'd like to improve the system.
 
-Clone this repository:
+## 📝 License
 
-git clone https://github.com/your-username/hostel-management-system.git
+This project is open-source and available under the [MIT License](LICENSE).
 
-Open the project in Visual Studio.
+## ✉️ Contact
 
-Set up the database using the provided SQL script.
-
-Build and run the application.
-
-Usage
-
-Launch the application and log in with administrator credentials.
-
-Navigate through the dashboard to manage students, rooms, and payments.
-
-Generate reports for hostel administration.
-
-Contribution
-
-If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
-
-License
-
-This project is open-source and available under the MIT License.
-
-Contact
-
-For any inquiries or support, feel free to reach out via email or open an issue in the repository.
-
-Author: Linus Kibet
-
+- **Author**: Linus Kibet
+- **GitHub**: [@devlinuskibet](https://github.com/devlinuskibet)
+- For any inquiries or support, feel free to reach out via email or open an issue in the repository.
